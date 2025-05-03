@@ -7,8 +7,8 @@ export default {
         auto: "repeat(auto-fill, minmax(200px, 1fr))",
       },
       colors: {
-        primary: "#5F6FFF",
-        upscale: "#4ADE80", // Green-400
+        primary: "#2874a6",
+        upscale: "#229954", // Green-400
       },
     },
   },

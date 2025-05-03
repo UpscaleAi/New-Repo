@@ -37,7 +37,7 @@ return (
           </p>
         </div>
         <a href="tel:+251987156534">
-          <button className="border border-gray-400 px-4 py-2 rounded text-sm hover:bg-upscale hover:text-white transition-all duration-500 cursor-pointer">
+          <button className="bg-primary text-white border border-gray-400 px-4 py-2 rounded text-sm hover:bg-upscale hover:text-white transition-all duration-500 cursor-pointer">
             Call Ambulance
           </button>
         </a>

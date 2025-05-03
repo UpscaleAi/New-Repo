@@ -21,20 +21,20 @@ const App = () => {
   const { aToken } = useContext(AdminContext)
 
   return dToken || aToken ? (
-    <div className='bg-[#F8F9FD]'>
+    <div className="bg-[#F8F9FD]">
       <ToastContainer />
       <Navbar />
-      <div className='flex items-start'>
+      <div className="flex items-start">
         <Sidebar />
         <Routes>
-          <Route path='/' element={<></>} />
-          <Route path='/admin-dashboard' element={<Dashboard />} />
-          <Route path='/all-appointments' element={<AllAppointments />} />
-          <Route path='/add-doctor' element={<AddDoctor />} />
-          <Route path='/doctor-list' element={<DoctorsList />} />
-          <Route path='/doctor-dashboard' element={<DoctorDashboard />} />
-          <Route path='/doctor-appointments' element={<DoctorAppointments />} />
-          <Route path='/doctor-profile' element={<DoctorProfile />} />
+          <Route path="/" element={<></>} />
+          <Route path="/admin-dashboard" element={<Dashboard />} />
+          <Route path="/all-appointments" element={<AllAppointments />} />
+          <Route path="/add-doctor" element={<AddDoctor />} />
+          <Route path="/doctor-list" element={<DoctorsList />} />
+          <Route path="/doctor-dashboard" element={<DoctorDashboard />} />
+          <Route path="/doctor-appointments" element={<DoctorAppointments />} />
+          <Route path="/doctor-profile" element={<DoctorProfile />} />
         </Routes>
       </div>
     </div>
@@ -43,7 +43,7 @@ const App = () => {
       <ToastContainer />
       <Login />
     </>
-  )
+  );
 }
 
 export default App

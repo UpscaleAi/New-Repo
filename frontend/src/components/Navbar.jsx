@@ -21,7 +21,7 @@ const Navbar = () => {
       <img
         onClick={() => navigate("/")}
         className="w-44 cursor-pointer"
-        src={assets.logo}
+        src={assets.amuTH}
         alt=""
       />
       <ul className="md:flex items-start gap-5 font-medium hidden">
@@ -75,7 +75,7 @@ const Navbar = () => {
         ) : (
           <button
             onClick={() => navigate("/login")}
-            className="bg-upscale text-white px-8 py-3 rounded-full font-light hidden md:block"
+            className="bg-primary text-white px-8 py-3 rounded-full font-light hidden md:block hover:bg-upscale"
           >
             Create account
           </button>
